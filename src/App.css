@@ -1,7 +1,13 @@
 .App {
   text-align: center;
 }
-
+body{
+  background: rgb(174, 238, 177);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgb(94, 19, 106) 100%);
+}
+.Container{
+  margin-left: 500px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +41,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.my_pointer {
+  cursor: pointer;
+}
+.favorite_remove{
+  position: absolute;
+  top: 10%;
+  right: 5px; ;
 }
